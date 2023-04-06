@@ -2,7 +2,7 @@ import praw
 import random
 import PyBay
 
-def fetchSubmission(clientID, clientSecret, subreddits, fetchLimit, minUpvotes, minComments):
+def fetchSubmission(clientID, clientSecret, subreddits, fetchLimit, minUpvotes, minComments, SORT_TYPE):
 	candidates = []
 	filtered = []
 
@@ -18,9 +18,27 @@ def fetchSubmission(clientID, clientSecret, subreddits, fetchLimit, minUpvotes, 
 	print("Choosing from subreddit: " + subreddit)
 	#fetch the top 10 posts from the subreddit
 	print("Fetching data...")
-	for submissions in reddit.subreddit(subreddit).hot(limit=fetchLimit):
-		candidates.append(submissions)
-		# print(submissions.title)
+ 
+	if SORT_TYPE == "top":
+		print("Sorting by top (day)...")
+		for submissions in reddit.subreddit(subreddit).top(limit=fetchLimit, time_filter="day"):
+			candidates.append(submissions)
+	elif SORT_TYPE == "controversial":
+		print("Sorting by controversial...")
+		for submissions in reddit.subreddit(subreddit).controversial(limit=fetchLimit):
+			candidates.append(submissions)
+	elif SORT_TYPE == "new":
+		print("Sorting by new...")
+		for submissions in reddit.subreddit(subreddit).new(limit=fetchLimit):
+			candidates.append(submissions)
+	elif SORT_TYPE == "rising":
+		print("Sorting by rising...")
+		for submissions in reddit.subreddit(subreddit).rising(limit=fetchLimit):
+			candidates.append(submissions)
+	else:
+		print("Sorting by hot...")
+		for submissions in reddit.subreddit(subreddit).hot(limit=fetchLimit):
+			candidates.append(submissions)
 
 	# weigh them using a classification algorithm
 	print("Classifying data...")
@@ -32,17 +50,16 @@ def fetchSubmission(clientID, clientSecret, subreddits, fetchLimit, minUpvotes, 
 			filtered.append(item)
 			
 	chosensubmission = filtered[random.randint(0, len(filtered)-1)] #TODO update this to not use a random one but the best one
-	print("Chosen submission: " + chosensubmission.title)
+	print("Title: " + chosensubmission.title)
+	print("URL: " + chosensubmission.url)
 	return chosensubmission
 
 def fetchComments(chosensubmission, minCommentUpvotes):
-	index = 0
 	comments = []
 	for comment in chosensubmission.comments:
 		# skip the MoreComments object 
 		if isinstance(comment, praw.models.MoreComments):
 			continue
-		elif comment.body != "[deleted]" and comment.body != "[removed]" and (len(comment.body) > 10 and len(comment.body) < 100) and comment.author != "AutoModerator" and index <= 10 and comment.id not in comments and comment.score > minCommentUpvotes:
+		elif comment.id not in comments and comment.score > minCommentUpvotes:
 			comments.append(comment)
-			index += 1
 	return comments

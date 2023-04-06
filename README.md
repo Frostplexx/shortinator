@@ -16,3 +16,11 @@ This program automatically generates shortform videos of reddit posts.
 - Install all the requrements
 - Change the settings in main.py to your liking
 - Either add your own videos as .mp4 to the assets/clips folder or use the tiktokify.sh script to automatically convert a video to the right size and split it into 50sec long segments
+
+## TODO
+
+- [ ] Differentate between "ask" subs and "story" subs because story subs dont need comments
+- [ ] read post body if it exsits
+- [ ] make options more obvious
+- [ ] take upvotes into account for comments
+- [ ] not too many short comments
