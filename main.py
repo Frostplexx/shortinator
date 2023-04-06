@@ -3,7 +3,7 @@ import gtts
 from utils import cleanFolders
 from screenshot import takeTitleScreenshot, takeCommentScreenshot, getDriver, getWait
 from getpost import fetchSubmission, fetchComments
-from cutter import createVideo
+from cutter import createVideo, createStoryVideo
 import time, math, os, random
 from ffmpeg import FFmpeg, Progress
 from comments import filterComments
@@ -15,7 +15,8 @@ clientSecret = "caMwwkwlu4aS4j8g8oAc4eI-d3b_hQ"
 
 # ----------- user settings -----------
 # subreddits = ["askreddit", "truthoffmychest", "showerthoughts", "unsolvedmysteries"]
-SUBREDDITS = ["askreddit", "showerthoughts", "ask", "answers", "askmen", "askwomen", "truthoffmychest", "confession", "confessions"]
+#SUBREDDITS = ["askreddit", "showerthoughts", "ask", "answers", "askmen", "askwomen", "truthoffmychest", "confession", "confessions"]
+SUBREDDITS = ["truthoffmychest", "confession", "confessions"]
 SOTRY_SUBS = ["truthoffmychest", "confession", "confessions"]
 NUMBER_OF_VIDEOS = 1
 
@@ -43,7 +44,7 @@ def magic():
 	chosensubmission = fetchSubmission(clientID, clientSecret, subreddit, FETCH_LIMIT, MIN_UPVOTES, MIN_COMMENTS,SORT_TYPE)
  
 	if subreddit in SOTRY_SUBS:
-		tts = gttts.gTTS(chosensubmission.body, lang="en", tld="us", slow=False)
+		tts = gtts.gTTS(chosensubmission.selftext, lang="en", tld="us", slow=False)
 		tts.save("out/voiceovers/body.mp3")
 	#create a voiceover for the title 
 	tts = gtts.gTTS(chosensubmission.title, lang="en", tld="us", slow=False)
@@ -102,7 +103,7 @@ def magic():
 	if subreddit not in SOTRY_SUBS:
 		outfile = createVideo(commentScreenshotFiles, voiceOverFiles)
 	else:
-		outfile = createStoryVIdeo()
+		outfile = createStoryVideo()
 
 	# remux the video to a mp4 container
 	print("Remuxing to mp4...")

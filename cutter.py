@@ -5,6 +5,19 @@ import random
 MARGIN = 40
 INBETWEEN_TIME = 0.3
 
+def createStoryClip():
+    audioClip1 = AudioFileClip("out/voiceovers/title.mp3")
+    audioClip2 = AudioFileClip("out/voiceovers/body.mp3")
+    imageClipe = ImageClip(
+        "out/screenshots/title.png",
+        duration= audioClip1.duration + audioClip2.duration
+	).set_position(("center", "center"))
+    imageClipe.resize(width= (1080 - MARGIN))
+    audioClip = CompositeAudioClip([audioClip1, audioClip2])
+    videoClip = imageClipe.set_audio(audioClip)
+    videoClip.fps = 1
+    return videoClip
+
 def createClip(screesnhotFile, voiceOverFile):
 	audioClip = AudioFileClip(voiceOverFile)
 	imageClip = ImageClip(
@@ -72,19 +85,16 @@ def createVideo(commentFiles, voiceOverFiles):
 
 
 
-def createStoryVIdeo(): 
+def createStoryVideo(): 
     titleClip = CreateTitleClip()
-    bodyClip = createClip("out/screenshots/body.png", "out/voiceovers/body.mp3")
-    clips = [titleClip, bodyClip]
     background = getBackground()
-    titleAndBody = concatenate_videoclips(clips).set_position(("center", "center"))
     
     finalVideo = CompositeVideoClip(
-        clips=[background, titleAndBody],
+        clips=[background, titleClip],
         size= background.size
-	).set_audio(titleAndBody.audio)
+	).set_audio(titleClip.audio)
     finalVideo.set_fps(background.fps)
-    
+    finalVideo.duration = titleClip.duration
     outputFile = "out/videos/" + str(random.randint(0, 1000000)) + ".mp4"
     finalVideo.write_videofile(
         outputFile,

@@ -24,3 +24,6 @@ This program automatically generates shortform videos of reddit posts.
 - [ ] make options more obvious
 - [ ] take upvotes into account for comments
 - [ ] not too many short comments
+- [ ] refractor code
+- [ ] audio of selftext doesnt work
+- [ ] fix edgecases
