@@ -3,7 +3,11 @@ import gtts
 from utils import cleanFolders
 from screenshot import takeTitleScreenshot, takeCommentScreenshot, getDriver, getWait
 from getpost import fetchSubmission, fetchComments
+from cutter import createVideo
+import time, math, os
+from ffmpeg import FFmpeg, Progress
 
+starttime = time.time()
 
 # credentials for reddit
 clientID = "ecvNqH1CxmQ8Cls5N0_QNw"
@@ -28,30 +32,51 @@ chosensubmission = fetchSubmission(clientID, clientSecret, subreddits, fetchLimi
 tts = gtts.gTTS(chosensubmission.title, lang="en", tld="us", slow=False)
 tts.save("out/voiceovers/title.mp3")
 
+
+voiceOverFiles = []
+
+
 def createVoiceOver(id, text):
 	# create voiceover 
-	filePath = f"out/voiceovers/comment-{id}.mp3"
+	filePath = "out/voiceovers/comment-" + id + ".mp3"
 	tts = gtts.gTTS(text, lang="en", tld="us", slow=False)
 	tts.save(filePath)
-	return filePath
+	voiceOverFiles.append(filePath)
 
 # get the top 10 comments from the submission
 print("Fetching comments...")
 comments = fetchComments(chosensubmission, minCommentUpvotes)
+for comment in comments:
+	createVoiceOver(comment.id, comment.body)
 
 # screenshot the title and the comments
 if comments == []:
     print("No suitable comments found, aborting...")
     exit()
 
+commentScreenshotFiles = []
 
 print("Taking screenshots...")
 driver = getDriver(chosensubmission.url)
 wait = getWait(driver)
 takeTitleScreenshot(driver, wait, chosensubmission)
 for comment in comments:
-	takeCommentScreenshot(driver, wait, comment)
+	commentScreenshotFiles.append(takeCommentScreenshot(driver, wait, comment.id))
  
 driver.close()
 
+outfile = createVideo(commentScreenshotFiles, voiceOverFiles)
 
+# remux the video to a mp4 container
+print("Remuxing to mp4...")
+ffmpeg = FFmpeg().option("y").input(outfile).output("out/videos/" + chosensubmission.id + ".mp4")
+ffmpeg.execute()
+
+# delete the old file
+os.remove(outfile)
+
+cleanFolders()
+
+endtime = time.time()
+
+print("Finished in " + str(math.floor(endtime - starttime)) + " seconds")

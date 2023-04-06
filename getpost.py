@@ -27,7 +27,7 @@ def fetchSubmission(clientID, clientSecret, subreddits, fetchLimit, minUpvotes, 
 	for item in candidates: 
 		test = PyBay.classify(item.title)
 		
-		if test == "good" and item.score > minUpvotes and item.num_comments > minComments:
+		if test == "good" and item.score > minUpvotes and item.num_comments > minComments and item.over_18 == False:
 			# print(item.title)
 			filtered.append(item)
 			
@@ -43,7 +43,6 @@ def fetchComments(chosensubmission, minCommentUpvotes):
 		if isinstance(comment, praw.models.MoreComments):
 			continue
 		elif comment.body != "[deleted]" and comment.body != "[removed]" and (len(comment.body) > 10 and len(comment.body) < 100) and comment.author != "AutoModerator" and index <= 10 and comment.id not in comments and comment.score > minCommentUpvotes:
-			# createVoiceOver(comment.id, comment.body)
-			comments.append(comment.id)
+			comments.append(comment)
 			index += 1
 	return comments
