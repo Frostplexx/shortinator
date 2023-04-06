@@ -12,8 +12,18 @@ def filterComments(comments):
 		scoredComments.append((comment, rank))
 	# sort the comments by rank
 	scoredComments.sort(key=lambda tup: tup[1], reverse=True)
-	# return the top 10 comments without the rank
-	return [comment[0] for comment in scoredComments[:10]]
+	print("Ranked " + str(len(scoredComments)) +" comments")
+	
+	#append comments until 130 words are reached
+	newComments = []
+	words = 0
+	for comment in scoredComments:
+		words += len(comment[0].body.split(" "))
+		newComments.append(comment[0])
+		if words >= 130:
+			break
+	return newComments
+
 
 
 def rankComment(comment):

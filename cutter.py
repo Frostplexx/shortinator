@@ -17,7 +17,6 @@ def createClip(screesnhotFile, voiceOverFile):
 	return videoClip
 
 def CreateTitleClip():
-    
 	audioClip = AudioFileClip("out/voiceovers/title.mp3")
 	imageClip = ImageClip(
 		"out/screenshots/title.png",
@@ -73,3 +72,24 @@ def createVideo(commentFiles, voiceOverFiles):
 
 
 
+def createStoryVIdeo(): 
+    titleClip = CreateTitleClip()
+    bodyClip = createClip("out/screenshots/body.png", "out/voiceovers/body.mp3")
+    clips = [titleClip, bodyClip]
+    background = getBackground()
+    titleAndBody = concatenate_videoclips(clips).set_position(("center", "center"))
+    
+    finalVideo = CompositeVideoClip(
+        clips=[background, titleAndBody],
+        size= background.size
+	).set_audio(titleAndBody.audio)
+    finalVideo.set_fps(background.fps)
+    
+    outputFile = "out/videos/" + str(random.randint(0, 1000000)) + ".mp4"
+    finalVideo.write_videofile(
+        outputFile,
+        codec="mpeg4",
+		threads=8,
+		bitrate="5000k",
+	)
+    return outputFile

@@ -2,7 +2,7 @@ import praw
 import random
 import PyBay
 
-def fetchSubmission(clientID, clientSecret, subreddits, fetchLimit, minUpvotes, minComments, SORT_TYPE):
+def fetchSubmission(clientID, clientSecret, subreddit, fetchLimit, minUpvotes, minComments, SORT_TYPE):
 	candidates = []
 	filtered = []
 
@@ -14,7 +14,6 @@ def fetchSubmission(clientID, clientSecret, subreddits, fetchLimit, minUpvotes, 
 	)
 
 	#pick a random subreddit from the list
-	subreddit = subreddits[random.randint(0, len(subreddits)-1)]
 	print("Choosing from subreddit: " + subreddit)
 	#fetch the top 10 posts from the subreddit
 	print("Fetching data...")
