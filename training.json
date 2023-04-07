@@ -1,186 +1,768 @@
 {
-    "data": [
-        { "text": "Get rich quick!", "label": "good" },
-		{"text": "Mod reports", "label": "bad"},
-{"text": "I genuinely like writing policies, procedures and SOPs", "label": "bad"},
-{"text": "Just Needed to Post this Somewhere Pt4 (Final)", "label": "bad"},
-{"text": "My life is falling apart and my most valuable trait is my absence Pt 2", "label": "bad"},
-{"text": "In the society that we live today, where we strive to be accepting and inclusive, I feel like the movies and TV series are doing the opposite", "label": "bad"},
-{"text": "I’m stressed and I have no one", "label": "bad"},
-{"text": "i have a real hard time when it comes to feel emphaty for others", "label":"bad"},
-{"text": "I’m just gonna leave this here", "label": "bad"},
-{"text": "My friends are assholes", "label": "bad"},
-{"text": "Im starting to think I’m an idiot…", "label": "bad"},
-{"text": "My husband doesn't want to have sex with me", "label": "bad"},
-{"text": "Villain Arc Incoming", "label": "bad"},
-{"text": "i want to leave my fiance out of fear", "label": "bad"},
-{"text": "What's the story behind your phone's wallpaper?", "label": "bad"},
-{"text": "Since honey comes in bear-shaped bottles, what other animal-shaped bottles do you think would go well with other condiments/sauces?", "label": "bad"},
-{"text": "Angel and Caitlin basketball drama", "label": "bad"},
-{"text": "Im in love with My friends mom", "label": "good"}, 
-{"text": "I am not sure if I can hold it together any longer.", "label": "bad"},
-{"text": "My parents and there weird treatment of my tortoise", "label": "good"},
-{"text": "Ramblings of a lost girl", "label": "bad"},
-{"text": "I want to live in same town as my ex and Im afraid to tell my husband and my mom.", "label": "bad"},
-{"text": "I don't want to leave my friends", "label": "bad"},
-{"text": "Do you think I was spoiled cause I do", "label": "bad"},
-{"text": "I’m a grown ass man and I cry every time i watch Wall-E", "label": "good"},
-{"text": "I read that a former boss of mine has died and I feel so relieved", "label": "good"},
-{"text": "My ex-roommate is accusing me of choking her on my birthday", "label": "bad"},
-{"text": "I miss my abuser so much it is actually killing me", "label": "good"},
-{"text": "My friends best friend is trying to date a 14 year old and the mom of the 14 year old won't do anything to help", "label": "bad"},
-{"text": "I might like my friend and idk what to think abt it", "label": "bad"},
-{"text": "I hate my lazy mother", "label": "bad"},
-{"text": "Am I racist", "label":"bad"},
-{"text": "I’ve been ignoring an old friend and it’s not his fault.", "label": "bad"},
-{"text": "Gone? The Truth Behind 2Pac (2023)", "label": "good"},
-{"text": "I never want to think of you again", "label": "good"},
-{"text": "I hate everything and everybody!", "label": "good"},
-{"text": "My dad blocked my ma and I have no idea what to do", "label": "good"},
-{"text": "My family is falling apart and i don’t know what to do", "label": "good"},
-{"text": "My roommate went to a party and now I feel insecure about myself", "label": "bad"},
-{"text": "My accident has made me and my partner for 7 years come appart", "label": "good"},
-{"text": "I’m losing interest in my partner and I’m falling in love again with someone I tried to date 6 years ago but ended in friendship", "label": "good"},
-{"text": "I made a terrible mistake", "label": "good"},
-{"text": "The pandemic made my life better, and I can't be the only one!", "label": "bad"},
-{"text": "We’re done. Forever.", "label":"good"},
-{"text": "I really wanna expose my somewhat well-known ex", "label": "good"},
-{"text": "I can’t support my sister decision on her lawsuit again her ex husband", "label": "good"},
-{"text": "Am I the asshole for not supporting my boyfriend", "label": "good"},
-{"text": "To my partner’s ex, who will definitely read this…", "label":"bad"},
-{"text": "I saw a dead body today.", "label": "good"},
-{"text": "I hated my dog for the first year of having him, and he's incredibly the nicest boy so, I've realized how broken I am.", "label":"good"},
-{"text": "I want my autistic classmate to drop out or fail the class", "label": "bad"},
-{"text": "I'm thinking of stealing my mom's money", "label": "good"},
-{"text": "I (f19) apparently stole my sisters (f 26) boyfriend (m21)", "label": "good"},
-{"text": "I think I've lost all hope for myself", "label": "good"},
-{"text": "Being the disappointment of the family sucks.", "label": "bad"},
-{"text": "I almost ran over someone today", "label": "good"},
-{"text": "I'm ashamed of the way i poop", "label": "bad"},
-{"text": "Standing at concerts", "label": "bad"},
-{"text": "Living with the enemy", "label": "good"},
-{"text": "I think I understand what has been causing my problems", "label": "bad"},
-{"text": "Some of my close friends didn’t wish me a happy birthday", "label": "bad"},
-{"text": "The dark web is traumatic", "label": "bad"},
-{"text": "What was discontinued, but you miss like hell and you wish came back?", "label": "bad"},
-{"text": "What brand do you hate and why?", "label": "bad"},
-{"text": "What's the weirdest / most disgusting thing you've ever seen at a party?", "label": "good"},
-{"text": "Which would be the most highly watched sport if the players were to be naked?", "label": "bad"},
-{"text": "What Are Some Disturbing Documentaries?", "label": "bad"},
-{"text": "Which comedy movie has the greatest laughs-per-second ratio ever?", "label": "bad"},
-{"text": "What was the most out of touch with reality thing a rich person ever said to you?", "label": "good"},
-{"text": "What do you say before you climax?", "label": "bad"},
-{"text":"How do you sleep at night? Full nude or dressed, and if so, what do you like to wear?", "label": "bad"},
-{"text": "What’s something that you think people are only pretending to like?", "label": "good"},
-{"text":"Which singer has the most angelic voice?", "label": "bad"},
-{"text":"(Serious) What's the worst job you've ever had?", "label": "good"},
-{"text": "What causes some people to talk to police during interrogation without a lawyer?", "label": "bad"},
-{"text":"What was something you've genuinely lost sleep over?", "label": "good"},
-{"text": "Donald Trump", "label": "bad"},
-{"text": "Donald Trump", "label": "bad"},
-{"text": "Donald Trump", "label": "bad"},
-{"text": "Donald Trump", "label": "bad"},
-{"text": "Donald Trump", "label": "bad"},
-{"text": "Donald Trump", "label": "bad"},
-{"text": "Donald Trump", "label": "bad"},
-{"text": "Donald Trump", "label": "bad"},
-{"text": "Donald Trump", "label": "bad"},
-{"text": "Donald Trump", "label": "bad"},
-{"text": "Donald Trump", "label": "bad"},
-{"text":"What is the least cool instrument to play?", "label":"bad"},
-{"text": "What is one must watch cartoon show ?", "label": "bad"},
-{"text":"What item is expensive in America but cheap pretty much everywhere else?", "label": "bad"},
-{"text":"What hobby did you quit?", "label":"bad"},
-{"text":"What are some hygiene tips you wish more people knew?", "label": "bad"},
-{"text": "Anime is insanely popular in America. What's an american thing that's as popular in Japan?", "label": "bad"},
-{"text": "What do men think of girls when they wear no makeup?", "label":"bad"},
-{"text": "What are your favourite album covers?", "label": "bad"},
-{"text": "What is a big waste of time?", "label": "bad"},
-{"text": "what do you do to pick yourself back from multiple failures in life?", "label": "bad"},
-{"text": "Men, how would you feel about receiving a hand written love letter from a girl?", "label": "bad"},
-{"text": "What have you learned from being exposed to rich people?", "label": "good"},
-{"text": "What documentary is a must see?", "label": "good"},
-{"text":"What was the first age inappropriate video game you played as a kid?", "label": "bad"},
-{"text": "What does PAWG mean?", "label": "bad"},
-{"text": "Is Marvel losing your interest in movies and television? Why or why not?", "label": "bad"},
-{"text": "What's the thing you miss most from the days before the internet?", "label": "bad"},
-{"text": "What is a game that is a must play?", "label": "bad"},
-{"text": "What is the funniest comedy movie you have ever watched?", "label": "bad"},
-{"text": "What is something your parents never taught you but they should have?", "label": "good"},
-{"text": "How do you cope with life?", "label": "bad"},
-{"text": "What are some Coolest replies to you are ugly?", "label": "good"},
-{"text": "As you have aged, what is something that you have appreciated more and more throughout your years?", "label": "bad"},
-{"text": "What is your favorite single line of lyrics of any song you've heard?", "label": "bad"},
-{"text": "What's your best example/story ofif you see something, say something?", "label": "good"},
-{"text": "What’s your comfort show?", "label": "bad"},
-{"text": "What actually is a daddy kink?", "label": "bad"},
-{"text": "What is the most disturbing thing you've ever seen?", "label": "good"},
-{"text": "What's a lesser-known interesting fact about the ancient world?", "label": "bad"},
-{"text": "What's the most toxic community/fandom?", "label": "bad"},
-{"text": "What's the most toxic community/fandom?", "label": "bad"},
-{"text": "What's the most toxic community/fandom?", "label": "bad"},
-{"text": "What's the most toxic community/fandom?", "label": "bad"},
-{"text": "What's the most toxic community/fandom?", "label": "bad"},
-{"text": "Chosen submission: What documentary is a must see?", "label": "bad"},
-{"text": "Chosen submission: What documentary is a must see?", "label": "bad"},
-{"text": "Chosen submission: What documentary is a must see?", "label": "bad"},
-{"text": "What's something you are surprised is still around?", "label": "bad"},
-{"text": "Garbage men, women & (Garbage people?) of Reddit. What are some ways people dispose of trash that piss you off?", "label": "bad"},
-{"text": "If you suddenly woke up in 2050, what’s the first thing you would google?", "label": "bad"},
-{"text":"What's the most interesting piece of trivia you know?", "label":"good"},
-{"text":"What's the weirdest thing you've ever eaten?", "label":"good"},
-{"text":"What's the funniest joke you've ever heard?", "label":"good"},
-{"text":"What's the most ridiculous thing you've ever seen someone do in public?", "label":"good"},
-{"text":"What's the worst first date experience you've had?", "label":"good"},
-{"text":"What's the most embarrassing thing that's ever happened to you?", "label":"good"},
-{"text":"What's the most bizarre dream you've ever had?", "label":"good"},
-{"text":"What's the most impressive party trick you know?", "label":"good"},
-{"text":"What's the most ridiculous conspiracy theory you've ever heard?", "label":"good"},
-{"text":"What's the most interesting place you've ever traveled to?", "label":"good"},
-{"text":"What's the most impressive talent you have?", "label":"good"},
-{"text":"What's the most memorable concert you've ever been to?", "label":"good"},
-{"text":"What's the worst haircut you've ever had?", "label":"good"},
-{"text":"What's the most outrageous thing you've ever done to win a bet?", "label":"good"},
-{"text":"What's the most bizarre encounter you've ever had with a stranger?", "label":"good"},
-{"text":"What's the most impressive feat of athleticism you've ever witnessed?", "label":"good"},
-{"text":"What's the most ridiculous fashion trend you've ever followed?", "label":"good"},
-{"text":"What's the most bizarre thing you've ever witnessed at work?", "label":"good"},
-{"text":"What's the most embarrassing moment you've had in front of a crush?", "label":"good"},
-{"text":"What's the most ridiculous thing you've ever done while sleepwalking?", "label":"good"},
-{"text":"What's your favorite type of cheese?", "label":"bad"},
-{"text":"What's the best way to fold a fitted sheet?", "label":"bad"},
-{"text":"What's your favorite brand of toothpaste?", "label":"bad"},
-{"text":"What's your preferred method of tying shoelaces?", "label":"bad"},
-{"text":"What's your favorite kind of fruit?", "label":"bad"},
-{"text":"What's your favorite type of pencil?", "label":"bad"},
-{"text":"What's your favorite color?", "label":"bad"},
-{"text":"What's your favorite type of sandwich?", "label":"bad"},
-{"text":"What's the best way to organize a bookshelf?", "label":"bad"},
-{"text":"What's your favorite brand of bottled water?", "label":"bad"},
-{"text":"What's your preferred brand of paper towel?", "label":"bad"},
-{"text":"What's your favorite kind of soup?", "label":"bad"},
-{"text":"What's your favorite type of bread?", "label":"bad"},
-{"text":"What's your favorite kind of pasta?", "label":"bad"},
-{"text":"What's your favorite type of plant?", "label":"bad"},
-{"text":"What's your favorite type of candle scent?", "label":"bad"},
-{"text":"What's your favorite type of sock?", "label":"bad"},
-{"text":"What's your favorite type of tree?", "label":"bad"},
-{"text":"What's your favorite kind of bird?", "label":"bad"},
-{"text":"What's your favorite type of weather?", "label":"bad"},
-{"text": "Help The Rainforest Trust with AskReddit's 15th Anniversary Fundraiser!", "label": "bad"},
-{"text": "Help The Rainforest Trust with AskReddit's 15th Anniversary Fundraiser!", "label": "bad"},
-{"text": "Help The Rainforest Trust with AskReddit's 15th Anniversary Fundraiser!", "label": "bad"},
-{"text": "Help The Rainforest Trust with AskReddit's 15th Anniversary Fundraiser!", "label": "bad"},
-{"text": "Help The Rainforest Trust with AskReddit's 15th Anniversary Fundraiser!", "label": "bad"},
-{"text": "How is Fox News able to attend press events like a legit news organization but then claim in court their reporting is entertainment and shouldn't be taken seriously?", "label": "bad"},
-{"text": "Fox News", "label": "bad"},
-{"text": "Fox News", "label": "bad"},
-{"text": "Fox News", "label": "bad"},
-{"text": "Fox News", "label": "bad"},
-{"text": "Fox News", "label": "bad"},
-{"text": "Fox News", "label": "bad"},
-{"text": "Fox News", "label": "bad"},
-{"text": "Apply deodorant at night after shower , yes or no?", "label": "bad"},
-{"text": " Why are White people called “Caucasian”? The Caucasus region is in Asia", "label": "bad"}
-    ]
+  "data": [
+    {
+      "text": "Get rich quick!",
+      "label": "good"
+    },
+    {
+      "text": "Mod reports",
+      "label": "bad"
+    },
+    {
+      "text": "I genuinely like writing policies, procedures and SOPs",
+      "label": "bad"
+    },
+    {
+      "text": "Just Needed to Post this Somewhere Pt4 (Final)",
+      "label": "bad"
+    },
+    {
+      "text": "My life is falling apart and my most valuable trait is my absence Pt 2",
+      "label": "bad"
+    },
+    {
+      "text": "In the society that we live today, where we strive to be accepting and inclusive, I feel like the movies and TV series are doing the opposite",
+      "label": "bad"
+    },
+    {
+      "text": "I’m stressed and I have no one",
+      "label": "bad"
+    },
+    {
+      "text": "i have a real hard time when it comes to feel emphaty for others",
+      "label": "bad"
+    },
+    {
+      "text": "I’m just gonna leave this here",
+      "label": "bad"
+    },
+    {
+      "text": "My friends are assholes",
+      "label": "bad"
+    },
+    {
+      "text": "Im starting to think I’m an idiot…",
+      "label": "bad"
+    },
+    {
+      "text": "My husband doesn't want to have sex with me",
+      "label": "bad"
+    },
+    {
+      "text": "Villain Arc Incoming",
+      "label": "bad"
+    },
+    {
+      "text": "i want to leave my fiance out of fear",
+      "label": "bad"
+    },
+    {
+      "text": "What's the story behind your phone's wallpaper?",
+      "label": "bad"
+    },
+    {
+      "text": "Since honey comes in bear-shaped bottles, what other animal-shaped bottles do you think would go well with other condiments/sauces?",
+      "label": "bad"
+    },
+    {
+      "text": "Angel and Caitlin basketball drama",
+      "label": "bad"
+    },
+    {
+      "text": "Im in love with My friends mom",
+      "label": "good"
+    },
+    {
+      "text": "I am not sure if I can hold it together any longer.",
+      "label": "bad"
+    },
+    {
+      "text": "My parents and there weird treatment of my tortoise",
+      "label": "good"
+    },
+    {
+      "text": "Ramblings of a lost girl",
+      "label": "bad"
+    },
+    {
+      "text": "I want to live in same town as my ex and Im afraid to tell my husband and my mom.",
+      "label": "bad"
+    },
+    {
+      "text": "I don't want to leave my friends",
+      "label": "bad"
+    },
+    {
+      "text": "Do you think I was spoiled cause I do",
+      "label": "bad"
+    },
+    {
+      "text": "I’m a grown ass man and I cry every time i watch Wall-E",
+      "label": "good"
+    },
+    {
+      "text": "I read that a former boss of mine has died and I feel so relieved",
+      "label": "good"
+    },
+    {
+      "text": "My ex-roommate is accusing me of choking her on my birthday",
+      "label": "bad"
+    },
+    {
+      "text": "I miss my abuser so much it is actually killing me",
+      "label": "good"
+    },
+    {
+      "text": "My friends best friend is trying to date a 14 year old and the mom of the 14 year old won't do anything to help",
+      "label": "bad"
+    },
+    {
+      "text": "I might like my friend and idk what to think abt it",
+      "label": "bad"
+    },
+    {
+      "text": "I hate my lazy mother",
+      "label": "bad"
+    },
+    {
+      "text": "Am I racist",
+      "label": "bad"
+    },
+    {
+      "text": "I’ve been ignoring an old friend and it’s not his fault.",
+      "label": "bad"
+    },
+    {
+      "text": "Gone? The Truth Behind 2Pac (2023)",
+      "label": "good"
+    },
+    {
+      "text": "I never want to think of you again",
+      "label": "good"
+    },
+    {
+      "text": "I hate everything and everybody!",
+      "label": "good"
+    },
+    {
+      "text": "My dad blocked my ma and I have no idea what to do",
+      "label": "good"
+    },
+    {
+      "text": "My family is falling apart and i don’t know what to do",
+      "label": "good"
+    },
+    {
+      "text": "My roommate went to a party and now I feel insecure about myself",
+      "label": "bad"
+    },
+    {
+      "text": "My accident has made me and my partner for 7 years come appart",
+      "label": "good"
+    },
+    {
+      "text": "I’m losing interest in my partner and I’m falling in love again with someone I tried to date 6 years ago but ended in friendship",
+      "label": "good"
+    },
+    {
+      "text": "I made a terrible mistake",
+      "label": "good"
+    },
+    {
+      "text": "The pandemic made my life better, and I can't be the only one!",
+      "label": "bad"
+    },
+    {
+      "text": "We’re done. Forever.",
+      "label": "good"
+    },
+    {
+      "text": "I really wanna expose my somewhat well-known ex",
+      "label": "good"
+    },
+    {
+      "text": "I can’t support my sister decision on her lawsuit again her ex husband",
+      "label": "good"
+    },
+    {
+      "text": "Am I the asshole for not supporting my boyfriend",
+      "label": "good"
+    },
+    {
+      "text": "To my partner’s ex, who will definitely read this…",
+      "label": "bad"
+    },
+    {
+      "text": "I saw a dead body today.",
+      "label": "good"
+    },
+    {
+      "text": "I hated my dog for the first year of having him, and he's incredibly the nicest boy so, I've realized how broken I am.",
+      "label": "good"
+    },
+    {
+      "text": "I want my autistic classmate to drop out or fail the class",
+      "label": "bad"
+    },
+    {
+      "text": "I'm thinking of stealing my mom's money",
+      "label": "good"
+    },
+    {
+      "text": "I (f19) apparently stole my sisters (f 26) boyfriend (m21)",
+      "label": "good"
+    },
+    {
+      "text": "I think I've lost all hope for myself",
+      "label": "good"
+    },
+    {
+      "text": "Being the disappointment of the family sucks.",
+      "label": "bad"
+    },
+    {
+      "text": "I almost ran over someone today",
+      "label": "good"
+    },
+    {
+      "text": "I'm ashamed of the way i poop",
+      "label": "bad"
+    },
+    {
+      "text": "Standing at concerts",
+      "label": "bad"
+    },
+    {
+      "text": "Living with the enemy",
+      "label": "good"
+    },
+    {
+      "text": "I think I understand what has been causing my problems",
+      "label": "bad"
+    },
+    {
+      "text": "Some of my close friends didn’t wish me a happy birthday",
+      "label": "bad"
+    },
+    {
+      "text": "The dark web is traumatic",
+      "label": "bad"
+    },
+    {
+      "text": "What was discontinued, but you miss like hell and you wish came back?",
+      "label": "bad"
+    },
+    {
+      "text": "What brand do you hate and why?",
+      "label": "bad"
+    },
+    {
+      "text": "What's the weirdest / most disgusting thing you've ever seen at a party?",
+      "label": "good"
+    },
+    {
+      "text": "Which would be the most highly watched sport if the players were to be naked?",
+      "label": "bad"
+    },
+    {
+      "text": "What Are Some Disturbing Documentaries?",
+      "label": "bad"
+    },
+    {
+      "text": "Which comedy movie has the greatest laughs-per-second ratio ever?",
+      "label": "bad"
+    },
+    {
+      "text": "What was the most out of touch with reality thing a rich person ever said to you?",
+      "label": "good"
+    },
+    {
+      "text": "What do you say before you climax?",
+      "label": "bad"
+    },
+    {
+      "text": "How do you sleep at night? Full nude or dressed, and if so, what do you like to wear?",
+      "label": "bad"
+    },
+    {
+      "text": "What’s something that you think people are only pretending to like?",
+      "label": "good"
+    },
+    {
+      "text": "Which singer has the most angelic voice?",
+      "label": "bad"
+    },
+    {
+      "text": "(Serious) What's the worst job you've ever had?",
+      "label": "good"
+    },
+    {
+      "text": "What causes some people to talk to police during interrogation without a lawyer?",
+      "label": "bad"
+    },
+    {
+      "text": "What was something you've genuinely lost sleep over?",
+      "label": "good"
+    },
+    {
+      "text": "Donald Trump",
+      "label": "bad"
+    },
+    {
+      "text": "Donald Trump",
+      "label": "bad"
+    },
+    {
+      "text": "Donald Trump",
+      "label": "bad"
+    },
+    {
+      "text": "Donald Trump",
+      "label": "bad"
+    },
+    {
+      "text": "Donald Trump",
+      "label": "bad"
+    },
+    {
+      "text": "Donald Trump",
+      "label": "bad"
+    },
+    {
+      "text": "Donald Trump",
+      "label": "bad"
+    },
+    {
+      "text": "Donald Trump",
+      "label": "bad"
+    },
+    {
+      "text": "Donald Trump",
+      "label": "bad"
+    },
+    {
+      "text": "Donald Trump",
+      "label": "bad"
+    },
+    {
+      "text": "Donald Trump",
+      "label": "bad"
+    },
+    {
+      "text": "What is the least cool instrument to play?",
+      "label": "bad"
+    },
+    {
+      "text": "What is one must watch cartoon show ?",
+      "label": "bad"
+    },
+    {
+      "text": "What item is expensive in America but cheap pretty much everywhere else?",
+      "label": "bad"
+    },
+    {
+      "text": "What hobby did you quit?",
+      "label": "bad"
+    },
+    {
+      "text": "What are some hygiene tips you wish more people knew?",
+      "label": "bad"
+    },
+    {
+      "text": "Anime is insanely popular in America. What's an american thing that's as popular in Japan?",
+      "label": "bad"
+    },
+    {
+      "text": "What do men think of girls when they wear no makeup?",
+      "label": "bad"
+    },
+    {
+      "text": "What are your favourite album covers?",
+      "label": "bad"
+    },
+    {
+      "text": "What is a big waste of time?",
+      "label": "bad"
+    },
+    {
+      "text": "what do you do to pick yourself back from multiple failures in life?",
+      "label": "bad"
+    },
+    {
+      "text": "Men, how would you feel about receiving a hand written love letter from a girl?",
+      "label": "bad"
+    },
+    {
+      "text": "What have you learned from being exposed to rich people?",
+      "label": "good"
+    },
+    {
+      "text": "What documentary is a must see?",
+      "label": "good"
+    },
+    {
+      "text": "What was the first age inappropriate video game you played as a kid?",
+      "label": "bad"
+    },
+    {
+      "text": "What does PAWG mean?",
+      "label": "bad"
+    },
+    {
+      "text": "Is Marvel losing your interest in movies and television? Why or why not?",
+      "label": "bad"
+    },
+    {
+      "text": "What's the thing you miss most from the days before the internet?",
+      "label": "bad"
+    },
+    {
+      "text": "What is a game that is a must play?",
+      "label": "bad"
+    },
+    {
+      "text": "What is the funniest comedy movie you have ever watched?",
+      "label": "bad"
+    },
+    {
+      "text": "What is something your parents never taught you but they should have?",
+      "label": "good"
+    },
+    {
+      "text": "How do you cope with life?",
+      "label": "bad"
+    },
+    {
+      "text": "What are some Coolest replies to you are ugly?",
+      "label": "good"
+    },
+    {
+      "text": "As you have aged, what is something that you have appreciated more and more throughout your years?",
+      "label": "bad"
+    },
+    {
+      "text": "What is your favorite single line of lyrics of any song you've heard?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your best example/story ofif you see something, say something?",
+      "label": "good"
+    },
+    {
+      "text": "What’s your comfort show?",
+      "label": "bad"
+    },
+    {
+      "text": "What actually is a daddy kink?",
+      "label": "bad"
+    },
+    {
+      "text": "What is the most disturbing thing you've ever seen?",
+      "label": "good"
+    },
+    {
+      "text": "What's a lesser-known interesting fact about the ancient world?",
+      "label": "bad"
+    },
+    {
+      "text": "What's the most toxic community/fandom?",
+      "label": "bad"
+    },
+    {
+      "text": "What's the most toxic community/fandom?",
+      "label": "bad"
+    },
+    {
+      "text": "What's the most toxic community/fandom?",
+      "label": "bad"
+    },
+    {
+      "text": "What's the most toxic community/fandom?",
+      "label": "bad"
+    },
+    {
+      "text": "What's the most toxic community/fandom?",
+      "label": "bad"
+    },
+    {
+      "text": "Chosen submission: What documentary is a must see?",
+      "label": "bad"
+    },
+    {
+      "text": "Chosen submission: What documentary is a must see?",
+      "label": "bad"
+    },
+    {
+      "text": "Chosen submission: What documentary is a must see?",
+      "label": "bad"
+    },
+    {
+      "text": "What's something you are surprised is still around?",
+      "label": "bad"
+    },
+    {
+      "text": "Garbage men, women & (Garbage people?) of Reddit. What are some ways people dispose of trash that piss you off?",
+      "label": "bad"
+    },
+    {
+      "text": "If you suddenly woke up in 2050, what’s the first thing you would google?",
+      "label": "bad"
+    },
+    {
+      "text": "What's the most interesting piece of trivia you know?",
+      "label": "good"
+    },
+    {
+      "text": "What's the weirdest thing you've ever eaten?",
+      "label": "good"
+    },
+    {
+      "text": "What's the funniest joke you've ever heard?",
+      "label": "good"
+    },
+    {
+      "text": "What's the most ridiculous thing you've ever seen someone do in public?",
+      "label": "good"
+    },
+    {
+      "text": "What's the worst first date experience you've had?",
+      "label": "good"
+    },
+    {
+      "text": "What's the most embarrassing thing that's ever happened to you?",
+      "label": "good"
+    },
+    {
+      "text": "What's the most bizarre dream you've ever had?",
+      "label": "good"
+    },
+    {
+      "text": "What's the most impressive party trick you know?",
+      "label": "good"
+    },
+    {
+      "text": "What's the most ridiculous conspiracy theory you've ever heard?",
+      "label": "good"
+    },
+    {
+      "text": "What's the most interesting place you've ever traveled to?",
+      "label": "good"
+    },
+    {
+      "text": "What's the most impressive talent you have?",
+      "label": "good"
+    },
+    {
+      "text": "What's the most memorable concert you've ever been to?",
+      "label": "good"
+    },
+    {
+      "text": "What's the worst haircut you've ever had?",
+      "label": "good"
+    },
+    {
+      "text": "What's the most outrageous thing you've ever done to win a bet?",
+      "label": "good"
+    },
+    {
+      "text": "What's the most bizarre encounter you've ever had with a stranger?",
+      "label": "good"
+    },
+    {
+      "text": "What's the most impressive feat of athleticism you've ever witnessed?",
+      "label": "good"
+    },
+    {
+      "text": "What's the most ridiculous fashion trend you've ever followed?",
+      "label": "good"
+    },
+    {
+      "text": "What's the most bizarre thing you've ever witnessed at work?",
+      "label": "good"
+    },
+    {
+      "text": "What's the most embarrassing moment you've had in front of a crush?",
+      "label": "good"
+    },
+    {
+      "text": "What's the most ridiculous thing you've ever done while sleepwalking?",
+      "label": "good"
+    },
+    {
+      "text": "What's your favorite type of cheese?",
+      "label": "bad"
+    },
+    {
+      "text": "What's the best way to fold a fitted sheet?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your favorite brand of toothpaste?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your preferred method of tying shoelaces?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your favorite kind of fruit?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your favorite type of pencil?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your favorite color?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your favorite type of sandwich?",
+      "label": "bad"
+    },
+    {
+      "text": "What's the best way to organize a bookshelf?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your favorite brand of bottled water?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your preferred brand of paper towel?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your favorite kind of soup?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your favorite type of bread?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your favorite kind of pasta?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your favorite type of plant?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your favorite type of candle scent?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your favorite type of sock?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your favorite type of tree?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your favorite kind of bird?",
+      "label": "bad"
+    },
+    {
+      "text": "What's your favorite type of weather?",
+      "label": "bad"
+    },
+    {
+      "text": "Help The Rainforest Trust with AskReddit's 15th Anniversary Fundraiser!",
+      "label": "bad"
+    },
+    {
+      "text": "Help The Rainforest Trust with AskReddit's 15th Anniversary Fundraiser!",
+      "label": "bad"
+    },
+    {
+      "text": "Help The Rainforest Trust with AskReddit's 15th Anniversary Fundraiser!",
+      "label": "bad"
+    },
+    {
+      "text": "Help The Rainforest Trust with AskReddit's 15th Anniversary Fundraiser!",
+      "label": "bad"
+    },
+    {
+      "text": "Help The Rainforest Trust with AskReddit's 15th Anniversary Fundraiser!",
+      "label": "bad"
+    },
+    {
+      "text": "How is Fox News able to attend press events like a legit news organization but then claim in court their reporting is entertainment and shouldn't be taken seriously?",
+      "label": "bad"
+    },
+    {
+      "text": "Fox News",
+      "label": "bad"
+    },
+    {
+      "text": "Fox News",
+      "label": "bad"
+    },
+    {
+      "text": "Fox News",
+      "label": "bad"
+    },
+    {
+      "text": "Fox News",
+      "label": "bad"
+    },
+    {
+      "text": "Fox News",
+      "label": "bad"
+    },
+    {
+      "text": "Fox News",
+      "label": "bad"
+    },
+    {
+      "text": "Fox News",
+      "label": "bad"
+    },
+    {
+      "text": "Apply deodorant at night after shower , yes or no?",
+      "label": "bad"
+    },
+    {
+      "text": " Why are White people called “Caucasian”? The Caucasus region is in Asia",
+      "label": "bad"
+    },
+    {
+      "text": "What is the status of Trump's border wall today in 2023?",
+      "label": "bad"
+    },
+    {
+      "text": "What is the status of Trump's border wall today in 2023?",
+      "label": "bad"
+    },
+    {
+      "text": "What is the status of Trump's border wall today in 2023?",
+      "label": "bad"
+    },
+    {
+      "text": "What is the status of Trump's border wall today in 2023?",
+      "label": "bad"
+    },
+    {
+      "text": "What is the status of Trump's border wall today in 2023?",
+      "label": "bad"
+    },
+    {
+      "text": "Why do dealers place fentanyl in drugs when it has a high potential of killing their clientele?",
+      "label": "bad"
+    },
+    {
+      "text": "Why do dealers place fentanyl in drugs when it has a high potential of killing their clientele?",
+      "label": "bad"
+    },
+    {
+      "text": "Why do dealers place fentanyl in drugs when it has a high potential of killing their clientele?",
+      "label": "bad"
+    },
+    {
+      "text": "Why do dealers place fentanyl in drugs when it has a high potential of killing their clientele?",
+      "label": "bad"
+    }
+  ]
 }

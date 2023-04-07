@@ -21,9 +21,11 @@ This program automatically generates shortform videos of reddit posts.
 
 - [ ] Differentate between "ask" subs and "story" subs because story subs dont need comments
 - [ ] read post body if it exsits
-- [ ] make options more obvious
-- [ ] take upvotes into account for comments
+- [x] make options more obvious
+- [x] take upvotes into account for comments
 - [ ] not too many short comments
-- [ ] refractor code
+- [x] refractor code
 - [ ] audio of selftext doesnt work
 - [ ] fix edgecases
+- [ ] auto upload to youtube
+- [ ] save what posts have been used already
