@@ -5061,3 +5061,137 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
 1680874077168	Marionette	INFO	Stopped listening on port 58886
+1680875265770	geckodriver	INFO	Listening on 127.0.0.1:59081
+1680875266288	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/qd/ngmwjyp91v380_fwc4ncwy0r0000gn/T/rust_mozprofiledUFaip"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680875266576	Marionette	INFO	Marionette enabled
+1680875266717	Marionette	INFO	Listening on port 59087
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:59082
+Read port: 59087
+1680875266889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qd/ngmwjyp91v380_fwc4ncwy0r0000gn/T/rust_mozprofiledUFaip/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59082/devtools/browser/405003c7-3a10-49fc-b608-18c2ebbca0f0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+1680875272286	Marionette	INFO	Stopped listening on port 59087
+1680875508147	geckodriver	INFO	Listening on 127.0.0.1:59207
+1680875508665	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/qd/ngmwjyp91v380_fwc4ncwy0r0000gn/T/rust_mozprofile2OayFP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680875508968	Marionette	INFO	Marionette enabled
+1680875509007	Marionette	INFO	Listening on port 59214
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 59214
+WebDriver BiDi listening on ws://127.0.0.1:59208
+1680875509174	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qd/ngmwjyp91v380_fwc4ncwy0r0000gn/T/rust_mozprofile2OayFP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59208/devtools/browser/0343a11e-9abd-4682-907a-958d19bd58eb
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+1680875519890	Marionette	INFO	Stopped listening on port 59214
+1680880810576	Marionette	INFO	Stopped listening on port 51811
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1680880813649	Marionette	INFO	Stopped listening on port 58789
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1680944347894	geckodriver	INFO	Listening on 127.0.0.1:62036
+1680944348412	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/qd/ngmwjyp91v380_fwc4ncwy0r0000gn/T/rust_mozprofileuJN5c3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680944348802	Marionette	INFO	Marionette enabled
+1680944348847	Marionette	INFO	Listening on port 62043
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 62043
+WebDriver BiDi listening on ws://127.0.0.1:62037
+1680944348958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qd/ngmwjyp91v380_fwc4ncwy0r0000gn/T/rust_mozprofileuJN5c3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62037/devtools/browser/866ff152-edcf-4a72-974e-d7709fa26d1b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1680944355082	Marionette	INFO	Stopped listening on port 62043
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+1680944821823	geckodriver	INFO	Listening on 127.0.0.1:62144
+1680944822344	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/qd/ngmwjyp91v380_fwc4ncwy0r0000gn/T/rust_mozprofilezJHlja"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680944822715	Marionette	INFO	Marionette enabled
+1680944822770	Marionette	INFO	Listening on port 62151
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:62145
+Read port: 62151
+1680944822985	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qd/ngmwjyp91v380_fwc4ncwy0r0000gn/T/rust_mozprofilezJHlja/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62145/devtools/browser/747cdc2b-67bb-4da3-892b-68c0f067a731
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1680944827959	Marionette	INFO	Stopped listening on port 62151
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1680945856072	geckodriver	INFO	Listening on 127.0.0.1:62993
+1680945856590	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/qd/ngmwjyp91v380_fwc4ncwy0r0000gn/T/rust_mozprofilewVcwxT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680945856959	Marionette	INFO	Marionette enabled
+1680945857108	Marionette	INFO	Listening on port 63006
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:62994
+Read port: 63006
+1680945857300	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qd/ngmwjyp91v380_fwc4ncwy0r0000gn/T/rust_mozprofilewVcwxT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62994/devtools/browser/b5da6a75-857c-4bcf-b44c-6592a632b072
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+1680945867628	Marionette	INFO	Stopped listening on port 63006
+1680945997815	geckodriver	INFO	Listening on 127.0.0.1:63217
+1680945998342	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/qd/ngmwjyp91v380_fwc4ncwy0r0000gn/T/rust_mozprofileMAHcQ3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680945998669	Marionette	INFO	Marionette enabled
+1680945998813	Marionette	INFO	Listening on port 63225
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 63225
+WebDriver BiDi listening on ws://127.0.0.1:63218
+1680945998884	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qd/ngmwjyp91v380_fwc4ncwy0r0000gn/T/rust_mozprofileMAHcQ3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63218/devtools/browser/a4a45ece-933a-42cc-854f-59628cdffcd4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1680946003875	Marionette	INFO	Stopped listening on port 63225
+1680946050098	geckodriver	INFO	Listening on 127.0.0.1:63286
+1680946050618	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/qd/ngmwjyp91v380_fwc4ncwy0r0000gn/T/rust_mozprofile9ekzAq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680946050909	Marionette	INFO	Marionette enabled
+1680946050948	Marionette	INFO	Listening on port 63293
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 63293
+WebDriver BiDi listening on ws://127.0.0.1:63287
+1680946051121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qd/ngmwjyp91v380_fwc4ncwy0r0000gn/T/rust_mozprofile9ekzAq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63287/devtools/browser/62564de0-f168-4710-9576-34cacbce6368
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+1680946066424	Marionette	INFO	Stopped listening on port 63293
+1680948900675	geckodriver	INFO	Listening on 127.0.0.1:65202
+1680948901161	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/qd/ngmwjyp91v380_fwc4ncwy0r0000gn/T/rust_mozprofilentrQrX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680948901626	Marionette	INFO	Marionette enabled
+1680948901822	Marionette	INFO	Listening on port 65219
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:65203
+Read port: 65219
+1680948902007	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qd/ngmwjyp91v380_fwc4ncwy0r0000gn/T/rust_mozprofilentrQrX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65203/devtools/browser/0163f8d7-93b8-4c46-b6a1-19f6f7077a9a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+1680948914606	Marionette	INFO	Stopped listening on port 65219

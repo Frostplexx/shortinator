@@ -1,5 +1,5 @@
 import math
-import random, time
+import random, time, json
 import configparser
 
 from comments import getComments
@@ -77,12 +77,25 @@ for comment in comments:
 print("Creating screenshots")
 # take screenshots
 screenshots = takeScreenshots(finalSubmission.url, comments)
-print(screenshots)
-print(voiceOverFiles)
+
 title = finalSubmission.title + " #shorts #reddit #" + subreddit
 outfile = createVideo(screenshots, voiceOverFiles, title)
 cleanFolders()
 endTime = time.time()
+
+# add the finalsumbission id to assets/files/produced_videos.json
+
+# Load the existing JSON file
+with open("assets/files/produced_videos.json", "r") as f:
+    data = json.load(f)
+
+# Add the new ID to the list of produced videos
+data["produced_videos"].append(finalSubmission.id)
+
+# Write the updated JSON data back to the file
+with open("assets/files/produced_videos.json", "w") as f:
+    json.dump(data, f)
+
 
 print("Saved videos as " + finalSubmission.id + ".mp4")
 print("Finished in " + str(math.floor(endTime - startTime)) + " seconds")

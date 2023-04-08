@@ -1,5 +1,4 @@
 import os, shutil
-
 import gtts
 
 
@@ -30,11 +29,11 @@ def cleanFolders():
 def createVoiceOver(comment_id, text):
     # create voiceover
     filePath = "out/voiceovers/comment-" + comment_id + ".mp3"
-    tts = gtts.gTTS(text, lang="en", tld="us", slow=False)
+    tts = gtts.gTTS(text=text, lang="en", tld="us", slow=False)
     tts.save(filePath)
     return filePath
 
 
 def createVoiceOverForTitle(title):
-    tts = gtts.gTTS(title, lang="en", tld="us", slow=False,)
+    tts = gtts.gTTS(text=title, lang="en", tld="us", slow=False)
     tts.save("out/voiceovers/title.mp3")

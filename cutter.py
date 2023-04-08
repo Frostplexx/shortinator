@@ -3,7 +3,7 @@ from ffmpeg import FFmpeg
 from moviepy.editor import *
 import random
 
-MARGIN = 40
+MARGIN = 80
 INBETWEEN_TIME = 0.3
 
 

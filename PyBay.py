@@ -13,7 +13,7 @@ def classify(text) -> str:
     nospam_words = {}
 
     # load data from training.json file
-    with open('training.json') as data:
+    with open('assets/files/training.json') as data:
         file_contents = data.read()
         training_data = json.loads(file_contents)["data"]
 

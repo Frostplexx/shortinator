@@ -1,7 +1,7 @@
 import praw
 import random
 from PyBay import classify
-
+import json
 
 def fetchSubmission(clientID, clientSecret, subreddit, fetchLimit, minUpvotes, minComments, SORT_TYPE):
     candidates = []
@@ -37,12 +37,16 @@ def fetchSubmission(clientID, clientSecret, subreddit, fetchLimit, minUpvotes, m
         for submissions in reddit.subreddit(subreddit).hot(limit=fetchLimit):
             candidates.append(submissions)
 
+    # load the json file
+    # Load the existing JSON file
+    with open("assets/files/produced_videos.json", "r") as f:
+        data = json.load(f)
     # weigh them using a classification algorithm
     print("Classifying data...")
     for item in candidates:
         test = classify(item.title)
 
-        if test == "good" and item.score > minUpvotes and item.num_comments > minComments and item.over_18 is False:
+        if item.id not in data["produced_videos"] and test == "good" and item.score > minUpvotes and item.num_comments > minComments and item.over_18 is False:
             filtered.append(item)
     # sort by score
     filtered.sort(key=lambda x: x.score, reverse=True)

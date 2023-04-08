@@ -1,5 +1,5 @@
 from getpost import _fetchComments
-import random
+import configparser
 
 # rank comments
 # give points to the comments
@@ -13,16 +13,22 @@ def _filterComments(comments):
         scoredComments.append((comment, rank))
     # sort the comments by rank
     scoredComments.sort(key=lambda tup: tup[1], reverse=True)
+    print(scoredComments)
+    # init config
+    config = configparser.ConfigParser()
+    config.read("settings.ini")
 
-    # append comments until 130 words are reached
+    # choose the comments from the top such that they best fit the word limit
     newComments = []
     words = 0
+    word_limit = config.get("Video Settings", "WORD_LIMIT")
     for comment in scoredComments:
-        words += len(comment[0].body.split(" "))
-        newComments.append(comment[0])
-        if words >= 90:
+        if words + len(comment[0].body.split()) < int(word_limit):
+            newComments.append(comment[0])
+            words += len(comment[0].body.split())
+        else:
             break
-    print("Filtered " + str(len(newComments)) + " comments")
+
     return newComments
 
 

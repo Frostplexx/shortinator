@@ -11,9 +11,23 @@ This program automatically generates shortform videos of reddit posts.
 5. using selenium we now take screenshots of the post title and the comments
 6. everything is combined using moviepy and a background clip from assets/clips is being added
 
+## Installation
+
+### Requirements
+
+- python3
+- pip3
+- ffmpeg
+
+Install dependencies using pip
+
+```bash
+pip3 install -r requirements.txt
+```
+
 ## Usage
 
-- Install all the requrements
+- Install all the requirements
 - Change the settings in main.py to your liking
 - Either add your own videos as .mp4 to the assets/clips folder or use the tiktokify.sh script to automatically convert a video to the right size and split it into 50sec long segments
 
