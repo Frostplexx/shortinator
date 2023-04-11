@@ -37,9 +37,14 @@ def _rankComment(comment):
     upvotes = comment.score
     replies = len(comment.replies)
 
-    # calcualte score 
-    score = (commentLength * 0.1) + (upvotes * 0.6) + (replies * 0.2)
-    return score
+    # calcualte score
+    config = configparser.ConfigParser()
+    config.read("settings.ini")
+    commentLengthWeight = float(config.get("Advanced Settings", "COMMENT_LENGTH_WEIGHT"))
+    upvotesWeight = float(config.get("Advanced Settings", "UPVOTES_WEIGHT"))
+    repliesWeight = float(config.get("Advanced Settings", "REPLIES_WEIGHT"))
+    score = (commentLength * commentLengthWeight) + (upvotes * upvotesWeight) + (replies * repliesWeight)
+    return score / 3
 
 
 def getComments(chosensubmission, min_comment_upvotes):

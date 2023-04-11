@@ -2,6 +2,8 @@ import moviepy
 from ffmpeg import FFmpeg
 from moviepy.editor import *
 import random
+import pygame
+from pygame.locals import RESIZABLE
 
 MARGIN = 80
 INBETWEEN_TIME = 0.3
@@ -96,6 +98,16 @@ def createVideo(commentFiles, voiceOverFiles, title):
     return "out/videos/" + title + ".mp4"
 
 
+def playVideo(videoFile):
+    pygame.init()
+    pygame.display.set_caption("Video preview")
+    # set the pygame window size so that it can be seen
+    screen = pygame.display.set_mode((100, 100), RESIZABLE)
+    video = VideoFileClip(videoFile)
+    video.preview()
+    pygame.quit()
+
+#WARNING UNUSED
 def createStoryVideo():
     titleClip = CreateTitleClip()
     background = getBackground()

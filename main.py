@@ -2,8 +2,9 @@ import math
 import random, time, json
 import configparser
 
+from upload import uploadVideo
 from comments import getComments
-from cutter import createVideo
+from cutter import createVideo, playVideo
 from getpost import fetchSubmission
 from screenshot import takeScreenshots
 from utils import cleanFolders, createVoiceOverForTitle, createVoiceOver
@@ -30,8 +31,6 @@ else:
     print("Invalid video type, aborting...")
     exit()
 
-subreddit = subreddits[random.randint(0, len(subreddits) - 1)]
-print("Subreddit: " + subreddit)
 
 # fetch post
 fetch_limit = int(config.get("Post Settings", "FETCH_LIMIT"))
@@ -44,7 +43,7 @@ clientSecret = config.get("Reddit Settings", "CLIENT_SECRET")
 subs = fetchSubmission(
     clientID,
     clientSecret,
-    subreddit,
+    subreddits,
     fetch_limit,
     min_upvotes,
     min_comments,
@@ -66,7 +65,7 @@ for chosensubmission in subs:
         break
 
 # create voiceovers
-
+print(comments)
 # create a voiceover for the title
 print("Creating voiceovers")
 createVoiceOverForTitle(finalSubmission.title)
@@ -78,7 +77,7 @@ print("Creating screenshots")
 # take screenshots
 screenshots = takeScreenshots(finalSubmission.url, comments)
 
-title = finalSubmission.title + " #shorts #reddit #" + subreddit
+title = "#shorts #reddit"
 outfile = createVideo(screenshots, voiceOverFiles, title)
 cleanFolders()
 endTime = time.time()
@@ -97,6 +96,21 @@ with open("assets/files/produced_videos.json", "w") as f:
     json.dump(data, f)
 
 
-print("Saved videos as " + finalSubmission.id + ".mp4")
+# open the video and ask the user if they want to upload it
+# opent the video in a video player
+playVideo(outfile)
+print("Do you want to upload the video? (y/n)")
+upload = input()
+while upload != "y" and upload != "n":
+    print("Invalid input, try again")
+    upload = input()
+
+if upload == "y":
+    # upload the video
+    print("Uploading video...")
+    uploadVideo(outfile)
+else:
+    print("Video not uploaded")
+
 print("Finished in " + str(math.floor(endTime - startTime)) + " seconds")
 
