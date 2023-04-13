@@ -46,5 +46,3 @@ def uploadVideo(video):
     # Take daily upload limit into account or at least warn user
     driver.quit()
     print("Done")
-
-uploadVideo("out/videos/#shorts #reddit.mp4")
