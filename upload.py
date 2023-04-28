@@ -42,7 +42,4 @@ def uploadVideo(video):
         next_button.click()
         time.sleep(1)
 
-    # TODO this doesnt work... wait until the video has been uploaded?
-    # Take daily upload limit into account or at least warn user
-    driver.quit()
     print("Done")
